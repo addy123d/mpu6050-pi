@@ -11,73 +11,86 @@ Easy to use python package to use MPU-6050. So get out your project setup and dr
 If address of your MPU6050 is 0x68, this is how you get values of accelerometer and gyroscope readings : 
 
 ::
-from MPU6050 import MPU6050
-import time
+>>> from MPU6050 import MPU6050
 
-# Pass your MPU6050 Address
-mpu = MPU6050.MPU6050(0x68)
+>>> import time
 
-# Init Settings
-mpu.reset()
-mpu.power_manage()
-mpu.gyro_config()
-mpu.accel_config()
+>>> mpu = MPU6050.MPU6050(0x68)
 
-while True:
+>>> mpu.reset()
 
-    # Gyroscope Readings
-    # X Y Z Values: 
-    print(f"g values are {mpu.read_gyroscope()}")
+>>> mpu.power_manage()
+
+>>> mpu.gyro_config()
+
+>>> mpu.accel_config()
+
+>>> while True:
+ 
+>>>    print(f"g values are {mpu.read_gyroscope()}")
     
-    # X Values: 
-    print(f"g x-values are {mpu.read_gyroscope(GYRO_YOUT=False, GYRO_ZOUT=False)}")
+>>>    # X Values: 
     
-    # Y Values: 
-    print(f"g y-values are {mpu.read_gyroscope(GYRO_XOUT=False, GYRO_ZOUT=False)}")
+>>>    print(f"g x-values are {mpu.read_gyroscope(GYRO_YOUT=False, GYRO_ZOUT=False)}")
     
-    # Z Values:
-    print(f"g z-values are {mpu.read_gyroscope(GYRO_XOUT=False, GYRO_YOUT=False)}")
+>>>    # Y Values: 
+
+>>>    print(f"g y-values are {mpu.read_gyroscope(GYRO_XOUT=False, GYRO_ZOUT=False)}")
     
-    # Accelerometer Readings
-    print(f"a values are {mpu.read_accelerometer()}")
+>>>    # Z Values:
+
+>>>    print(f"g z-values are {mpu.read_gyroscope(GYRO_XOUT=False, GYRO_YOUT=False)}")
     
-    # X Values: 
-    print(f"a x-values are {mpu.read_accelerometer(ACCEL_YOUT=False, ACCEL_ZOUT=False)}")
+>>>    # Accelerometer Readings
+
+>>>    print(f"a values are {mpu.read_accelerometer()}")
     
-    # Y Values: 
-    print(f"a y-values are {mpu.read_accelerometer(ACCEL_XOUT=False, ACCEL_ZOUT=False)}")
+>>>    # X Values: 
+
+>>>    print(f"a x-values are {mpu.read_accelerometer(ACCEL_YOUT=False, ACCEL_ZOUT=False)}")
     
-    # Z Values:
-    print(f"a z-values are {mpu.read_accelerometer(ACCEL_XOUT=False, ACCEL_YOUT=False)}")
+>>>    # Y Values: 
+
+>>>    print(f"a y-values are {mpu.read_accelerometer(ACCEL_XOUT=False, ACCEL_ZOUT=False)}")
     
-    time.sleep(0.5)
-```
+>>>    # Z Values:
+
+>>>    print(f"a z-values are {mpu.read_accelerometer(ACCEL_XOUT=False, ACCEL_YOUT=False)}")
+    
+>>>    time.sleep(0.5)
+
 
 ## 🌡️ Get Temperature Values:
 
-```
-from MPU6050 import MPU6050
-import time
 
-# Pass your MPU6050 Address
-mpu = MPU6050.MPU6050(0x68)
+>>> from MPU6050 import MPU6050
 
-# Init Settings
-mpu.reset()
-mpu.power_manage()
-mpu.gyro_config()
-mpu.accel_config()
+>>> import time
 
-while True:
+>>> mpu = MPU6050.MPU6050(0x68)
 
-    # Temperature Readings in Celsius
-    print(f"Temperature values are {mpu.get_temperature()}")
+>>> # Init Settings
+
+>>> mpu.reset()
     
-    # Temperature Readings in Fahrenheit
-    print(f"Temperature values are {mpu.get_temperature(fahrenheit=True)}")
+>>> mpu.power_manage()
+
+>>> mpu.gyro_config()
+
+>>> mpu.accel_config()
+
+>>> while True:
+
+>>>    # Temperature Readings in Celsius
+
+>>>    print(f"Temperature values are {mpu.get_temperature()}")
     
-    time.sleep(0.5)
-```
+>>>    # Temperature Readings in Fahrenheit
+
+>>>    print(f"Temperature values are {mpu.get_temperature(fahrenheit=True)}")
+    
+>>>    time.sleep(0.5)
+
 
 # Dependencies
 
@@ -85,9 +98,9 @@ while True:
 
 ## Installation
 
-```
-pip install mpu6050-pi
-```
+::
+>>> pip install mpu6050-pi
+
 
 
 
