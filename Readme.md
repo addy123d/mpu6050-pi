@@ -87,7 +87,7 @@ while True:
 ## Installation
 
 ```python
-pip install mpu6050-rpi
+pip install mpu6050-pi
 ```
 
 
