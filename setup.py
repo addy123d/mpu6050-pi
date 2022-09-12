@@ -2,15 +2,14 @@ from setuptools import setup, find_packages
 
 
 def readme():
-    with open('README.rst') as f:
+    with open('README.md') as f:
         return f.read()
 
 VERSION = '0.0.2' 
 DESCRIPTION = 'Easy to use python package to use MPU-6050. So get out your project setup and dream up some well-balanced projects'
 
 # Setting up
-
-setup(name='mpu6050-r',
+setup(name='mpu6050-raspberrypi',
       version='0.0.1',
       description=DESCRIPTION,
       long_description=DESCRIPTION,
