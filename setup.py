@@ -12,6 +12,7 @@ setup(name='mpu6050-PI',
       version='0.0.1',
       description=DESCRIPTION,
       long_description=readme(),
+      long_description_type="text/x-rst",
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Topic :: Software Development :: Libraries',
