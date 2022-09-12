@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 def readme():
-    with open('README.rst') as f:
+    with open('Readme.md') as f:
         return f.read()
 
 VERSION = '0.0.2' 
@@ -9,10 +9,10 @@ DESCRIPTION = 'Easy to use python package to use MPU-6050. So get out your proje
 
 # Setting up
 setup(name='mpu6050-PI',
-      version='0.0.2',
+      version='0.0.3',
       description=DESCRIPTION,
       long_description=readme(),
-      long_description_type="text/x-rst",
+      long_description_type="text/markdown",
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Topic :: Software Development :: Libraries',
