@@ -25,7 +25,7 @@ from .Registers import MPURegisters as mpu6050
 from smbus import SMBus
 import time
 
-Debug = False  # Set this to false when using !
+Debug = False  
 
 
 class MPU6050:
