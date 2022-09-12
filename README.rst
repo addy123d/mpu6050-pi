@@ -3,7 +3,6 @@
 
 ![https://hackster.imgix.net/uploads/attachments/1448773/ice_screenshot_20220526-074424_WUTL2Ooslq.png?auto=compress%2Cformat&w=680&h=510&fit=max](https://hackster.imgix.net/uploads/attachments/1448773/ice_screenshot_20220526-074424_WUTL2Ooslq.png?auto=compress%2Cformat&w=680&h=510&fit=max)
 
-|badge_license| |pypi_version| |pypi_downloads|
 
 Easy to use python package to use MPU-6050. So get out your project setup and dream up some well-balanced projects.
 
