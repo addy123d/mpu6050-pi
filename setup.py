@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 def readme():
-    with open('README.rst') as f:
+    with open('Readme.md') as f:
         return f.read()
 
 VERSION = '0.0.1' 

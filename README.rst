@@ -10,7 +10,7 @@ Easy to use python package to use MPU-6050. So get out your project setup and dr
 
 If address of your MPU6050 is 0x68, this is how you get values of accelerometer and gyroscope readings : 
 
-```
+::
 from MPU6050 import MPU6050
 import time
 
