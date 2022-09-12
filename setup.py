@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 def readme():
-    with open('Readme.md') as f:
+    with open('README.rst') as f:
         return f.read()
 
 VERSION = '0.0.1' 
@@ -12,7 +12,6 @@ setup(name='mpu6050-PI',
       version='0.0.1',
       description=DESCRIPTION,
       long_description=readme(),
-      long_description_content_type='text/markdown',
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Topic :: Software Development :: Libraries',
