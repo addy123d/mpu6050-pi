@@ -51,7 +51,7 @@ version installed, but this can be prone to bugs.
 2a. Install this package from PyPi repository
 ::
 
-    pip install mpu6050-raspberrypi
+    pip install mpu6050-pi
 
 Or:
 
