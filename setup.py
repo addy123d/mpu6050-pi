@@ -4,7 +4,7 @@ def readme():
     with open('Readme.md') as f:
         return f.read()
 
-VERSION = '0.0.2' 
+VERSION = '0.0.3' 
 DESCRIPTION = 'Easy to use python package to use MPU-6050. So get out your project setup and dream up some well-balanced projects'
 
 # Setting up
