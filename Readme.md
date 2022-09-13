@@ -98,5 +98,5 @@ Please report any issues or bugs here:
 
 # License
 
-Copyright (c) 2022 Gagan Deepak (gagan@ineuron.ai), Aditya Chaudhary (adityachaudhary@ineuron.ai) and contributors. Available under the MIT License. For more information, see `LICENSE`.
+Copyright (c) 2022 Gagan Deepak (gagan.databee@gmail.com), Aditya Chaudhary (ac3101282@gmail.com) and contributors. Available under the MIT License. For more information, see `LICENSE`.
 
